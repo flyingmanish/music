@@ -1,0 +1,78 @@
+.sec-content{
+    background-color: #282828;
+    height: calc(100vh - 56px);
+    /*width: calc(100vw - 14%);*/
+    margin-left: 14%;
+   }
+
+   .langues-sec{
+       padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #5c5c5c38;
+   }
+   .langues-sec li{
+       color: white;
+       list-style-type: none;
+       padding: 5px;
+       text-transform: uppercase;
+   }
+
+   .music-sec{
+     margin-top: 30px;
+   }
+
+   .music-sec-title{
+         padding: 15px;
+   }
+   .music-sec-title span{
+         color: #b8b8b8;
+      text-transform: uppercase;
+      font-size: 18px;
+      /*font-weight: 600;*/
+   }
+
+   .card{
+        width:auto;
+        height: 165px;
+        margin-bottom: 50px;
+        position: relative;
+   }
+   .card img{
+     width:100%;
+     height: 100%;
+   }
+
+   .card-body .card-title{
+        color:#b8b8b8;  
+   }
+
+   .play-btn-span{
+    height: 100%;
+    width: 100%;
+    /* color: black; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    position: absolute;
+      
+   }
+   .play-btn{
+    border-radius: 50px;
+    padding: 10px;
+    /* width: 26px; */
+    color: black;
+    /* height: 26px; */
+    background-color: #585757;
+   }
+
+   .player-wrapper{
+    display: flex;
+    width: 100%;
+    /* top: 0px; */
+    justify-content: center;
+    position: fixed;
+    z-index: 9999999999;
+    bottom: 0px;
+   }

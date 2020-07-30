@@ -1,0 +1,30 @@
+aside{
+    position: fixed;
+    height:100%;
+    width:14%;
+    background-color: #1a1a1a;
+}
+aside .sidenav{
+    padding: 0px;
+}
+
+aside ul.sidenav li.active{
+    background-color: #5c5c5c73;
+}
+
+aside ul.sidenav li.active a{
+     color:#ff4700 !important;
+     padding-left:5px;
+}
+
+aside ul.sidenav li.active i{
+     color:#ff4700 !important;
+}
+aside ul.sidenav li{
+    padding: 12px;
+}
+
+aside ul.sidenav li a,i{
+    color:white;
+    padding-left:5px;
+}
